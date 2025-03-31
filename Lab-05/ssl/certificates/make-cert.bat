@@ -1,0 +1,1 @@
+openssl req -new -x509 -newkey rsa:2048 -nodes -keyout sever-key.key -out sever-cert.crt -days 356 -config server-cert.cnf
